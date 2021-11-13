@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+        body{
+            background-color: rgb(5, 2, 29);
+            color:white;
+            font: normal 18pt Arial;
+        }
+        button{
+            border: none;
+            padding-top:10px;
+            padding-bottom: 10px;
+            color:white;
+            font-weight:bold;
+            width: 200px;
+            margin-bottom:5px;
+            border-radius: 5px;
+        }
+
+        #increment-btn {
+            background:darkred;
+        }
+    </style>
+</head>
+<body>
+    <h1>Inicidando estudos com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript.</p>
+    <div id="msg">CLique em mim</div>
+    <button id="increment-btn">This is a button</button>
+    <script>
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName("p")[0]
+        var d = window.document.getElementById("msg")
+         
+        d.style.background = "green"
+        d.innerText  = "Estou aguardando"
+       window.document("msg")
+    </script>
+</body>
+</html>

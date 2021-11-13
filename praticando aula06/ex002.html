@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+    
+    <style>
+        body{
+            background-color: #fcefe1;
+            font-size: 1.5em;
+        }
+        h1{
+            color: #110447;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Ja me livrei da maldicao</p>
+    <script>
+    /*  var n1 = Number(window.prompt(`Digite um numero`))
+      var n2 = Number(window.prompt(`Digite outro numero`))
+      var s = n1 + n2
+      window.alert(`O primeiro numero e ${n1}, o segundo numero e ${n2} e a soma desses dois numeros e ${s}`)
+*/
+ 
+    var nome = window.prompt(`Qual 'e o seu nome?`)
+
+    window.alert(`O seu nome tem ` + nome.length + ` letras.`)
+    window.alert(`O seu nome maiusculo fica assim `+ nome.toUpperCase())
+    window.alert(`O seu nome em minusculo fica assim: ` + nome.toLowerCase())
+    document.write(`Escreve na tela o que a ` + nome + ` quiser.`)
+    </script>
+</body>
+</html>
