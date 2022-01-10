@@ -1,0 +1,5 @@
+So consegui fazer a funcao funcionar usando a variavel vel. 
+Eu pensei que o texto na caixa de dialogo estaria automaticamente em String. Nao consegui fazer 
+a funcao funcionar sem a linha
+var vel = String(texto.value)
+
