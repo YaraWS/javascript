@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap');
+
+body{
+background: #0a396e;
+font: normal 25pt ;
+font-family: 'Shrikhand', cursive;
+}
+
+header{
+color: #f7564e;
+text-align: center;
+font-size: 20pt;
+text-shadow: 2px 2px #0e0d0d;
+}
+
+section{
+background: #1a1919e7;
+color: #fcf8e6;
+font-size: 29pt;
+font-family:  serif;
+border-radius: 25px;
+padding: 15px;
+width: 400px;
+margin: auto;
+box-shadow: 3px 3px 10px #2b29294b;
+}
+
+
+div{
+    text-align: center;
+    padding: 5px;
+}
